@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/bg-index.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-y: auto !important;
+  overflow-x: hidden;
+  font-family: "Poppins";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.home {
+  display: inline-block;
+  padding-top: 30px;
+  margin-left: 20px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.home a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  padding: 30px;
+}
+
+/* .form {
+  margin: auto;
+  border-radius: 10px;
+  border: 1px solid #757575;
+  background: #12161d75;
+  position: relative;
+  width: 500px;
+  height: auto;
+  text-align: center;
+  padding: 12px;
+  box-sizing: border-box;
+} */
+/* 
+form {
+  color: #fff;
+  width: 100%;
+  display: block;
+} */
+
+label {
+  display: flex;
+}
+
+::placeholder {
+  color: #999999;
+  font-family: "Poppins";
+}
+
+.form-control {
+  font-family: "Poppins";
+  color: #fff;
+  background: none;
+  padding: 10px 15px;
+  font-size: 14px;
+  border: 3px solid #006058;
+  margin-top: 10px;
+  -webkit-transition: 0.5s;
+  height: 40px;
+  transition: 0.5s;
+  outline: none;
+}
+
+.form-control:focus {
+  background: none;
+  border: 3px solid #4da47d;
+  color: #fff !important;
+}
+
+button {
+  padding: 5px 8px;
+  font-family: "Poppins";
+  font-size: 15px;
+  cursor: pointer;
+  color: #fff;
+  background: none;
+  border: 2px solid #4da47d;
+}
+
+button:hover {
+  background-color: #4da47d2e;
+}
+
+a {
+  color: #fff;
+  padding-right: 25px;
+}
+
+a:hover {
+  color: #4da47d;
+}
+/* 
+.btn {
+  display: inline-block;
+  text-align: right;
+  font-size: 15px;
+  margin-left: 65%;
+} */
+
+/* new */
+.error {
+  margin: 0;
+  color: rgb(255, 170, 0) !important;
+  font-size: 13px;
+  text-align: start !important;
+}
+
+.novel_picture {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.button-teal {
+  background-color: rgb(30, 103, 103) !important;
+  border: 1px solid rgb(30, 103, 103);
+}
+.label-now {
+  font-size: 14px;
+  color: teal;
+}
+
+.bg-custom {
+  background: rgba(24, 29, 30, 0.15);
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(24, 29, 30, 0.075);
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #444444;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
